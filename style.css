@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+  background: rgb(43, 43, 43);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.wrapper{
+  display: block;
+  margin: auto;
+}
+i{
+  margin-right: 20px;
+  font-size: 22px;
+}
+.btn{
+  display: flex;
+  width: 260px;
+  background: red;
+  padding: 4%;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #fff;
+}
+.btn:hover{
+  transition: 0.4s;
+  
+}
+#google{
+  background:#00A1F1 ;  
+}
+#google:hover{
+  background: rgb(219, 219, 219);
+  color: gray;
+}
+
+#facebook{
+  background:#5890ff ;
+}
+#facebook:hover{
+  background: rgb(219, 219, 219);
+  color: gray;
+
+}
+
+#reddit{
+  background: #ff4500;
+}
+#reddit:hover{
+  background: rgb(219, 219, 219);
+  color: gray;
+}
